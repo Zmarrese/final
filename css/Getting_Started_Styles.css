@@ -1,0 +1,136 @@
+.button {
+	height: 75px;
+    width: 75px;
+    top: 5px;
+    left: 5px;
+    background-color: #de4e4e;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.menu {
+	width: 210px;
+	height: 650px;
+	background: white;
+    border: 1pt black solid;
+	position: absolute;
+	top: 150px;
+	display: none;
+}
+
+.menu_List{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.grid_Container{
+    margin-left: 15%;
+}
+.Title{
+    font-family: "vendetta", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+}
+.descritpion{
+    font-family: "vendetta", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+.history_Container{
+    height: auto;
+    width: 900px;
+    margin-left: 10%;
+    
+    justify-content: center;
+
+    margin-top: 5%;
+}
+.year{
+    margin-top: 50px;
+    position: absolute;
+    font-family: "vendetta", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+.history_Text{
+    font-family: "vendetta", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    width: 900px;
+}
+
+
+.rulesImage{
+    justify-content: center;
+    margin-left:85px;
+}
+.rules_Container{
+    height: auto;
+    width: 900px;
+    margin-left: 10%;
+    
+    justify-content: center;
+
+    margin-top: 5%;
+}
+.videoContainer{
+    display: flex;
+    margin-left: 150px;
+    justify-content: center;
+}
+.ranking_Container{
+    height: auto;
+    width: 900px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-family: "vendetta", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+.rankingImage{
+    margin-left: 150px;
+
+}
+
+.upcoming_Events_Container{
+    height: auto;
+    width: 900px;
+    margin-left: 10%;
+    display: flex;
+    margin-top: 5%;
+    font-family: "vendetta", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.subTitle{
+    font-family: "vendetta", serif;
+    font-weight: 700;
+    
+    font-style: normal;
+    font-size: 25px;
+}
+.more_Information_Container{
+    height: auto;
+    width: 900px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+    font-family: "vendetta", serif;
+    font-weight: 300;
+    
+    font-style: normal;
+    font-size: 25px;
+}

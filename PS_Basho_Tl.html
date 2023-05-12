@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/Basho_Timeline.css" />
+
+		<!-- All Javascript/jQuery Files-->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	
+		<link rel="stylesheet" href="https://use.typekit.net/wyk2mkd.css">
+
+
+		<!-- Title of your web page -->	
+		<title>Basho Timeline</title>
+	
+	</head>
+
+	<body>
+
+		<a href="#" class="button"></a>
+
+		<div class="menu">
+			<div class="menu_List"><a href="Project_Sumo.html">~ Main Menu ~</a></div>
+			<div class="menu_List"><a href="PS_Getting_Started.html">~ Get Started ~</a></div>
+			<a class="menu_List" href="https://www.sumo.or.jp/En/">~ Visit the JSA Website Here ~</a>
+		</div>
+
+		
+		
+		<div class="nav_Bar_Container">
+			<button onclick="changeToConstruction();">
+				<div id="circleCheck" class="sub_Circle"><div class="sub_Title_1">Construction</div></div>
+				
+			</button>
+
+			<button onclick="changeToBlessing();">
+				<div id="circleCheck2" class="sub_Circle"><div class="sub_Title_2">Ring <br>Blessing</div></div>
+				
+			</button>
+			
+			<button onclick="changeToCeremony();">
+				<div id="circleCheck3" class="sub_Circle"><div class="sub_Title_3">Opening <br>Ceremony</div></div>
+				
+			</button>
+
+
+			<button onclick="changeToStandard();">
+				<div id="circleCheck4" class="sub_Circle"><div class="sub_Title_5">Standard <br>Day</div></div>
+				
+			</button>
+
+			<button onclick="changeToFinal();">
+				<div id="circleCheck5" class="sub_Circle"><div class="sub_Title_6">Final <br>Day</div></div>
+				
+			</button>
+
+		</div>
+		<div class="descritpion_Box_Outline">
+			<p id="desText" class="descritpion_Box_Text">At the beginning of every tournament a new ring must be constructed. To keep with tradition a separate construction team is not called in, rather the ring announcers are.  The process requires extreme precision and care. The ring must be 4.55 meters in diameter mounted on a clay platform 66 cm tall and 6.7 m wide. The clay is brought from the Arakawa River. Traditional tools are also required, shovels, wooden mallets, hoes, and beer bottles. The beer bottles have a purpose. They are placed inside the rice straw wraps that make up the ring center and the edges of the ring. These are wrapped tightly enough to stand up to 15 days of wrestling.  A central hole is left for the day before the tournament covered next.</p>
+		</div>
+		<div class="descritpion_Title_Container">
+			<p id="titled">Construction</p>
+		</div>
+
+		<div class="photo_Container">
+			<img id="desPic" class="photo_Location" src="MEDIA/Dohyo Construction 2.webp">
+		</div>
+
+		<script>
+			function changeToBlessing(){
+        	document.getElementById('desText').innerHTML = "The blessing occurs on day 1 of the tournament. This is available to be viewed by the public. High ranking wrestlers, coaches, and referees are all present as well to witness the ceremony. A shrine in the center of the ring signifies 7 godly presences. This whole ceremony of course links back to sumo's ceremonial roots. The three highest ranked referees enter ring side and the ceremony begins. One of the referees enters the ring and blesses it with a branch in the shrine and exits the ring. Next the highest ranked referee enters and says a prayer. Finally the other two referees join the highest ranking referee in the ring and move the altar flags to the four corners of the ring. The two lower ranking referees leave the ring once more leaving the high ranking one to say another prayer. He then pours sake and dumps other items into the hole left in the ring from earlier. The final event is a drum paraded around the ring 3 times while being played. With this the blessing is over.";
+        	document.getElementById('titled').innerHTML = "Blessing";
+			document.getElementById('desPic').src = "MEDIA/RingBlessing.jpg"
+			document.getElementById('circleCheck2').style.opacity ="1";
+    	}
+
+			function changeToConstruction(){
+			document.getElementById('desText').innerHTML = "At the beginning of every tournament a new ring must be constructed. To keep with tradition a separate construction team is not called in, rather the ring announcers are.  The process requires extreme precision and care. The ring must be 4.55 meters in diameter mounted on a clay platform 66 cm tall and 6.7 m wide. The clay is brought from the Arakawa River. Traditional tools are also required, shovels, wooden mallets, hoes, and beer bottles. The beer bottles have a purpose. They are placed inside the rice straw wraps that make up the ring center and the edges of the ring. These are wrapped tightly enough to stand up to 15 days of wrestling.  A central hole is left for the day before the tournament covered next.";
+        	document.getElementById('titled').innerHTML = "Construction";
+			document.getElementById('desPic').src = "MEDIA/Dohyo Construction 2.webp"
+			document.getElementById('circleCheck').style.opacity ="1";
+		}
+
+		function changeToCeremony(){
+			document.getElementById('desText').innerHTML = "During the first day before the top two divisions we have an opening ceremony of sorts. The head chairman of the JSA (Japanese Sumo Association) gives a speech acknowledging the fans and giving his thanks on behalf of everyone in the sport. He also takes the time to address anything that may be going on such as the pandemic and how it has affected the sport and sends his condolences to those who have passed away from the virus. He is in the ring with the top wrestlers who stand in a square formation either side of the chairman.";
+        	document.getElementById('titled').innerHTML = "Opening Ceremony";
+			document.getElementById('desPic').src = "MEDIA/OpeningUp.jpg"
+			document.getElementById('circleCheck3').style.opacity ="1";
+		}
+			
+
+		function changeToStandard(){
+			document.getElementById('desText').innerHTML = "On a standard day of sumo the wrestlers will go up against each other in groups. The groups are based on their division and only the final 2 divisions are what draw in big crowds. On occasion you will see lower division wrestlers compete against a member of a higher division. This will typically be due to injury of a wrestler who is no longer able to compete.  ";
+        	document.getElementById('titled').innerHTML = "Standard Day";
+			document.getElementById('desPic').src = "MEDIA/SdayA.webp"
+			document.getElementById('circleCheck4').style.opacity ="1";
+		}	
+
+		function changeToFinal(){
+			document.getElementById('desText').innerHTML = "The final day of sumo is done the same up until the end of each division’s matchups. If there is a tie amongst the wrestlers for first place a sudden death tournament is held. The winner is the champion. If there are 3 people in the tiebreaker the highest rank sits out first while the other two fight. Then directly after this the winner of the previous fight and the one who sat out of the previous bout have their match. The winner is the champion. After the day is done a lengthy award ceremony is held where the champion of division 1 receives numeros trophies and spirit awards are also given out. These include items like “Fighting Spirit” and “Best Technique” awards.";
+        	document.getElementById('titled').innerHTML = "Final Day";
+			document.getElementById('desPic').src = "MEDIA/Trophy.jpg"
+			document.getElementById('circleCheck5').style.opacity ="1";
+		}	
+
+		</script>
+	</body>
+
+</html>

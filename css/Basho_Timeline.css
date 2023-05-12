@@ -1,0 +1,183 @@
+/* All CSS styles go here */
+button{
+    background-color: white;
+    border: none;
+}
+.button {
+	height: 75px;
+    width: 75px;
+    top: 5px;
+    left: 5px;
+    background-color: #de4e4e;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.menu {
+	width: 210px;
+	height: 650px;
+	background: white;
+    border: 1pt black solid;
+	position: absolute;
+	top: 150px;
+	display: none;
+}
+
+.menu_List{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.nav_Bar_Container{
+    height: 540px;
+    width: 120px;
+    left: 90px;
+    top: 100px;
+    border: 1px solid;
+    position: absolute;
+    overflow-x: hidden;
+    z-index: -5;
+}
+.sub_Circle{
+    cursor: pointer;
+    height: 75px;
+    width: 75px;
+    background-color: #de4e4e;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    top: 55px;
+    margin-top: 20px;
+    margin-left: 14px;
+    opacity: 60%;
+}
+@keyframes button_Hover {
+   
+    100%{opacity: 100; }    
+    
+}
+.sub_Circle:hover{
+    animation: button_Hover 1s;
+    
+}
+.sub_Title_1{
+    cursor: pointer;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+    left: 25px;
+    font-family: "vendetta", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sub_Title_2{
+    cursor: pointer;
+
+    color: black;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin-top: 25px;
+    left: 37px;
+    font-family: "vendetta", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sub_Title_3{
+    cursor: pointer;
+
+    color: black;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin-top: 25px;
+    left: 32px;
+    font-family: "vendetta", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sub_Title_4{
+    cursor: pointer;
+
+    color: black;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin-top: 25px;
+    left: 44px;
+    font-family: "vendetta", serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+.sub_Title_5{
+    cursor: pointer;
+
+    color: black;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin-top: 25px;
+    left: 34px;
+    font-family: "vendetta", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sub_Title_6{
+    cursor: pointer;
+
+    color: black;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin-top: 25px;
+    left: 44px;
+    font-family: "vendetta", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.photo_Container{
+    height: 70%;
+    width: 50%;
+    overflow: hidden;
+    left: 235px;
+    top: 115px;
+    position: absolute;
+}
+
+
+.descritpion_Box_Outline{
+    background-color: white;
+    height: 70%;
+    width: 30%;
+    left: 67%;
+    top: 150px;
+    position: absolute;
+
+}
+.descritpion_Title_Container{
+    position: absolute;
+    font-family: "vendetta", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    left: 230px;
+    top: 30px
+}
+.descritpion_Box_Text{
+    font-family: "vendetta", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
